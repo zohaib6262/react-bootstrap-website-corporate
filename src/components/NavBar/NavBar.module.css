@@ -1,0 +1,18 @@
+.navBar {
+  width: 100%;
+  min-height: 10vh;
+}
+.brand {
+  color: #f64b4b;
+}
+.navbarBrand {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbarCollapse a:hover,
+.navbarCollapse a.active {
+  background: none;
+  color: #f64b4b;
+  text-decoration: underline;
+}

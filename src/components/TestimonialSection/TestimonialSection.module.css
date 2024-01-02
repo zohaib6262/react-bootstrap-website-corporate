@@ -1,0 +1,48 @@
+.testimonialBlock {
+  min-height: 30vh;
+  width: 100%;
+  padding: 2rem 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../../assests/images/bg-testimonial.jpg");
+  position: relative;
+  color: #fff;
+}
+.testimonialBlock::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.titleHolder {
+  position: relative;
+}
+
+.subTitle {
+  color: #999999;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subTitle:before {
+  content: "-";
+}
+.subTitle:after {
+  content: "-";
+}
+
+cite span {
+  display: block;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.name:before {
+  content: "-";
+}

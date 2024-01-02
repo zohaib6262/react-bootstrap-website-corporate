@@ -1,0 +1,100 @@
+.teamBlock {
+  min-height: 80vh;
+  width: 100%;
+}
+.container {
+  padding: 2rem 0;
+}
+
+.titleHolder {
+  text-align: center;
+}
+
+.subTitle {
+  color: #999999;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subTitle:before {
+  content: "-";
+}
+.subTitle:after {
+  content: "-";
+}
+
+.teamBlock [class*="col-"]:hover .overlay {
+  top: 0;
+  opacity: 1;
+}
+.img {
+  min-height: 20vh;
+}
+.teamBlock .image {
+  min-height: 20vh;
+  margin: 0 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.teamBlock .image .overlay {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.2s linear;
+  vertical-align: middle;
+  background: rgba(246, 75, 75, 0.9);
+  opacity: 0;
+}
+
+.teamBlock h3 {
+  margin: 0 0 5px;
+}
+
+.designation {
+  display: block;
+  font-style: italic;
+  margin: 0.5rem 0;
+}
+.socials {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.socials ul {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.socials li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 5px;
+}
+
+.socials a {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #f64b4b;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  padding: 2px;
+  transition: background 0.3s linear, color 0.3s linear;
+  -webkit-transition: background 0.3s linear, color 0.3s linear;
+}
+
+.socials a:hover {
+  background: #f64b4b;
+  color: #fff;
+}
+
+.socials .fab {
+  line-height: 2;
+}

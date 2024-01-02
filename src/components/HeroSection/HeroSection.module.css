@@ -1,0 +1,59 @@
+.heroBlock {
+  width: 100%;
+  min-height: 90vh;
+  background-color: black;
+}
+
+.carouselItem:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+img {
+  width: 100%;
+  min-height: 90vh;
+}
+
+.carouselCaption {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  border-radius: 1rem;
+  padding: 13px 35px;
+  text-transform: uppercase;
+}
+
+.btn:focus,
+.btn:hover {
+  background: #fff;
+  border-color: #f64b4b;
+  color: #f64b4b;
+}
+
+.fas {
+  margin: 0 0 0 6px;
+  font-size: 15px;
+}
+@media (min-width: 350px) and (max-width: 475px) {
+  .carouselCaption {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+  }
+}
+@media (min-width: 200px) and (max-width: 340px) {
+  .carouselCaption {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+}

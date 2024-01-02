@@ -1,0 +1,65 @@
+.contactBlock {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contactBlock .row {
+  margin: 0 0 25px;
+}
+.contactTitle {
+  margin: 3rem 0;
+}
+.subTitle::after,
+.subTitle::before {
+  content: "-";
+}
+
+.contactBlock .btnHolder {
+  text-align: center;
+}
+
+.contactBlock .contactForm {
+  margin: 0 0 60px;
+}
+
+.contactBlock iframe {
+  border: 0;
+  width: 100%;
+  height: 450px;
+}
+
+.contactBlock .contact-info {
+  padding: 70px 40px 0;
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.contactBlock .contact-info ul {
+  text-align: center;
+}
+
+.contactBlock .contact-info li {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+}
+
+.contactBlock .contact-info .fas {
+  display: block;
+  font-size: 40px;
+  margin: 0 0 15px;
+  color: #f64b4b;
+}
+
+i {
+  font-size: 35px;
+}
+.rowIcons {
+  padding: 3rem 0 0 0;
+}
+.icon {
+  color: #f64b4b;
+}

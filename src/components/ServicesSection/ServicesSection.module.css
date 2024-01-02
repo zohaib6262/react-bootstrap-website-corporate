@@ -1,0 +1,42 @@
+.servicesBlock {
+  min-height: 65vh;
+  width: 100%;
+}
+.container {
+  padding: 2rem 0;
+}
+
+.titleHolder {
+  text-align: center;
+}
+
+.subTitle {
+  color: #999999;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subTitle:before {
+  content: "-";
+}
+.subTitle:after {
+  content: "-";
+}
+.icon {
+  width: auto;
+  height: 2rem;
+  font-size: 2rem;
+  color: #f64b4b;
+  margin: 0 0 1.5rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.holder {
+  transition: all 0.5s linear;
+}
+
+.holder:hover .icon {
+  color: #f64b4b;
+  font-size: 1rem;
+}

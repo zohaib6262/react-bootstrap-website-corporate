@@ -1,0 +1,73 @@
+.pricingBlock {
+  min-height: 70vh;
+  width: 100%;
+  text-align: center;
+}
+.titleHolder {
+  padding: 3rem 0;
+  text-align: center;
+}
+.subTitle::after,
+.subTitle::before {
+  content: "-";
+}
+.row > div {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.heading {
+  background: #e6e6e6;
+  padding: 15px 60px;
+}
+
+.content .listGroupItem {
+  padding: 10px 20px;
+  border: 0;
+  background: #f7f7f7;
+}
+
+.content .listGroupItem:nth-child(2n-1) {
+  background: #ededed;
+}
+.btnHolder {
+  padding: 30px 20px;
+}
+
+.pricingBlock div[class*="col"]:nth-child(2) {
+  box-shadow: 0 0 40px 5px #e0e0e0;
+  position: relative;
+}
+
+.pricingBlock div[class*="col"]:nth-child(2) .heading {
+  padding: 30px 20px;
+  background: #f64b4b;
+  color: #fff;
+}
+
+.pricingBlock div[class*="col"]:nth-child(2):before {
+  content: "Popular";
+  text-transform: uppercase;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background: #f76363;
+  color: #fff;
+  padding: 5px 10px;
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 35px;
+  line-height: 45px;
+}
